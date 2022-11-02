@@ -1,0 +1,228 @@
+.navbar-expand-lg .navbar-collapse{
+    justify-content: center;
+}
+
+
+/* hero-section  start */
+
+.hero{
+    background-color: #ffb12a;
+}
+
+.hero-content{
+    padding: 115px 10px 145px 270px;
+}
+
+.hero-content > .hero-btn{
+    color: #fff;
+    background-color: #ff3280;
+    border: 1px solid #ff3280;
+    border-radius: 4px;
+    padding: 7px 15px 7px 15px;
+}
+
+
+.hero-img img{
+    width: 100%;
+    max-width: 450px;
+    padding: 55px 0px 0px 0px;
+}
+
+@media screen and (min-device-width: 325px) and (max-device-width: 768px) {
+    .hero-content {
+        padding: 30px 10px 10px 15px;
+    }
+
+    .main-card {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card-section{
+        margin-top: 26px!important;
+    }
+
+    .row1 {
+        background-color: #340ee3;
+        padding: 20px 0px 0px 0px;
+        margin-bottom: 15px;
+        color: #fff;
+    }
+
+
+    .row2{
+        background-color: #ff3280;
+        padding: 20px 0px 0px 0px;
+        color: #fff;
+        margin-bottom: 15px;
+    }
+    
+    .row3{
+        background-color: #2a0cae;
+        padding: 20px 0px 0px 0px;
+        color: #fff;
+        margin-bottom: 15px;
+    }
+
+
+
+    .about-imgs img{
+        width: 100%;
+        max-width: 450px;
+        padding: 55px 0px 0px 0px!important;
+    }
+    
+    .about-imgs .about-shape{
+        width: 100%;
+        max-width: 280px!important;
+    }
+    
+    .about-imgs  .about-img {
+        z-index: 1000;
+        margin: -300px 0px 0px 60px;
+        border-radius: 53%;
+    }
+    
+    
+    .about-content{
+        padding: 55px 20px 15px 10px!important;
+    }
+    
+    
+    .about-content span{
+        display: block;
+    }
+    
+    .about-content > .about-btn{
+        color: #fff;
+        background-color: #1A2C79;
+        border: 1px solid #1A2C79;
+        border-radius: 4px;
+        padding: 7px 15px 7px 15px;
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1150px) {
+    .hero-content {
+        padding: 75px  10px 10px 15px;
+    }
+
+
+    .about-imgs img{
+        width: 100%;
+        max-width: 450px;
+        padding: 55px 0px 0px 0px!important;
+    }
+    
+    .about-imgs .about-shape{
+        width: 100%;
+        max-width: 280px!important;
+    }
+    
+    .about-imgs  .about-img {
+        z-index: 1000;
+        margin: -300px 0px 0px 60px;
+        border-radius: 53%;
+    }
+    
+    
+    .about-content{
+        padding: 55px 20px 15px 10px!important;
+    }
+    
+    
+    .about-content span{
+        display: block;
+    }
+    
+    .about-content > .about-btn{
+        color: #fff;
+        background-color: #1A2C79;
+        border: 1px solid #1A2C79;
+        border-radius: 4px;
+        padding: 7px 15px 7px 15px;
+    }
+}
+
+/* hero-section  end */
+
+
+/* card section start */
+
+.card-section{
+    z-index: 1000;
+    margin-top: -46px;
+}
+
+.main-card{
+    justify-content: center;
+}
+
+.card-span{
+    font-size: 12px;
+}
+
+
+.row1{
+    background-color: #340ee3;
+    padding: 20px 0px 0px 0px;
+    color: #fff;
+    width: 100%;
+    max-width: 365px;
+}
+
+.row2{
+    background-color: #ff3280;
+    padding: 20px 0px 0px 0px;
+    color: #fff;
+    width: 100%;
+    max-width: 365px;
+}
+
+.row3{
+    background-color: #1A2C79;
+    padding: 20px 0px 0px 0px;
+    color: #fff;
+    width: 100%;
+    max-width: 365px;
+}
+
+/* card section end */
+
+/* about section start */
+
+.about-imgs img{
+    width: 100%;
+    max-width: 450px;
+    padding: 55px 0px 0px 100px;
+}
+
+.about-imgs .about-shape{
+    width: 100%;
+    max-width: 340px;
+}
+
+.about-imgs  .about-img {
+    z-index: 1000;
+    margin: -300px 0px 0px 60px;
+    border-radius: 53%;
+}
+
+
+.about-content{
+    padding: 145px 270px 115px 10px;
+}
+
+
+.about-content span{
+    display: block;
+}
+
+.about-content > .about-btn{
+    color: #fff;
+    background-color: #1A2C79;
+    border: 1px solid #1A2C79;
+    border-radius: 4px;
+    padding: 7px 15px 7px 15px;
+}
+/* about section end */
